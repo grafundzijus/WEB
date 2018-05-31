@@ -1,0 +1,91 @@
+h1.pirmas{
+  color: blue;
+}
+
+h1.antras{
+  color: purple;
+}
+
+p.pirmas{
+  color: red;
+  width: 500px;
+}
+
+#turinys{
+  color: green;
+}
+
+ul.turinys{
+  list-style-type: none;
+}
+
+h1{
+  background-color: yellow;
+}
+
+span{
+  background-color: green;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+/* [class]{
+  background-color: red;
+} */
+
+[required]{
+  background-color: pink;
+}
+
+input[type="text"]{
+  width: 100%;
+}
+
+table{
+  width: 100%;
+}
+
+[class$="as"]{
+  background-color: green;
+}
+
+a{
+  text-decoration: none;
+  color: green;
+  text-transform: uppercase;
+}
+
+ul.turinys li{
+  display: inline;
+}
+
+a:hover{
+  background-color: purple;
+}
+
+a:active{
+  background-color: yellow;
+}
+
+table tr:first-child{
+  background-color: red;
+}
+
+ul li:nth-child(2n+1){
+  background-color: green;
+  opacity: 0.5;
+}
+table.lenta{
+  width: 50px;
+  height: 50px;
+}
+
+table.lenta tr td:nth-child(2n+1) {
+  background-color: black;
+}
+
+p.pirmas{
+  letter-spacing: 5px;
+  text-shadow: 2px 1px 3px black;
+}

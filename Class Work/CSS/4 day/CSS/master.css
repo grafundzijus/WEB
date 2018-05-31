@@ -1,0 +1,58 @@
+div{
+  position: relative;
+  border-bottom-right-radius: 15px;
+
+}
+
+div.pirmas{
+  width: 500px;
+  background-color: yellow;
+  padding: 10px;
+}
+
+div.antras{
+  width: 480px;
+  background-color: green;
+  padding: 10px;
+}
+
+div.trecias{
+  width: 460px;
+  background-color: red;
+  padding: 10px;
+
+}
+
+div.ketvirtas{
+  width: 440px;
+  background-color: blue;
+  padding: 10px;
+  z-index: 9999;
+  overflow: hidden;
+  margin-bottom: 5px;
+
+
+}
+
+div.penktas{
+  width: 60px;
+  /* border: 1px solid black; */
+  padding: 10px;
+}
+
+div.sestas{
+  width: 50px;
+  /* border: 1px solid black; */
+  padding: 10px;
+}
+
+div.septintas{
+  width: 40px;
+  /* border: 1px solid black; */
+  padding: 10px;
+}
+
+img{
+  width: 100%;
+  height: 250px;
+}
