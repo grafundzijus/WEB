@@ -1,0 +1,4 @@
+js1. OK.
+js2. OK tik script tage esanti koda atitraukiam gilyn nuo krasto.
+js3. OK. tik rekomenduoju funkciju pavadinimuose lietuvisku rasmenu nenaudoti.
+js4. Uzduotyje praso "isspausdinti konsoleje", tam naudojamas console.log, o ne prompt. prompt skirtas reiksmei suvesta is klaviaturos paimti ir atiduoti kintamajam.
