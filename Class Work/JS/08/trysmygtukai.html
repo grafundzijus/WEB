@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <button  type="button" name="button">1</button>
+    <button  type="button" name="button">2</button>
+    <button  type="button" name="button">3</button>
+    <br>
+    <input type="button" name="" value="1">
+    <input type="button" name="" value="2">
+    <input type="button" name="" value="3">
+
+
+    <script src="../jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+
+    $("input").click(function(){
+      var mygtukoReiksme = $(this).val();
+      alert(mygtukoReiksme);
+    });
+
+    $("button").click(function(){
+      var mygtukoReiksme = $(this).text();
+      alert(mygtukoReiksme);
+    });
+
+      // $("#pirmas").click(function(){
+      //   alert("pirmas");
+      // });
+      //
+      // $("#antras").click(function(){
+      //   alert("antras");
+      // });
+      //
+      // $("#trecias").click(function(){
+      //   alert("trecias");
+      // });
+
+
+    </script>
+  </body>
+</html>

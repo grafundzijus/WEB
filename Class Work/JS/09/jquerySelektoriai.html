@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <input type="text" name="" value="">
+    <input type="text" name="" value="">
+    <input type="text" name="" value="">
+    <button type="button" name="button">OK</button>
+
+    <script src="../jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+      $("button").on("click", function(){
+        var inputai = $("input");
+        // alert(inputai[0].value);
+
+        for (var i = 0; i < inputai.length; i++) {
+          // alert($(inputai[i]).val());
+        }
+
+
+      });
+    </script>
+  </body>
+</html>

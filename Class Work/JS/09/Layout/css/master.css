@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 500px;
+  align-content: center;
+  background-color: green;
+  justify-content: center;
+}
+
+[class^="item"]{
+  /* flex: 30%; */
+  border: 1px solid orange;
+  height: 50px;
+  width: 200px;
+}
+
+.item1{
+  order: 2;
+}
+
+.item2{
+  order: 3;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      .box{
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        background-color: green;
+        float: left;
+      }
+      .left{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        background-color: green;
+        float: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+    <div class="left"></div>
+    <div class="box"></div>
+    <div class="left"></div>
+    <div class="box"></div>
+    <div class="left"></div>
+    <div class="box"></div>
+    <div class="left"></div>
+
+
+    <script src="../jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+      $(".box").mouseover(function(){
+        pradanginti(this, 0);
+      })
+
+      function pradanginti(elementas, reiksme){
+        $(elementas).animate({"opacity":reiksme}, 500, function() {
+          //kodas kuris vykdomas animacijai pasibaigus.
+          pradanginti(this, 1);
+       });
+     };
+
+     
+      $(".left").mouseover(function(){
+        judeti(this, 100);
+      });
+      function judeti(elementasL, reiksme){
+        $(elementasL).animate({"left":reiksme}, 100, function() {
+          //kodas kuris vykdomas animacijai pasibaigus.
+          judeti(this, 0);
+       });
+     };
+
+
+    </script>
+  </body>
+</html>

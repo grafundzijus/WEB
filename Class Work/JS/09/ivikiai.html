@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      .minuLaukas{
+        width: 300px;
+        height: 300px;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+
+    <input type="text" id="x" name="" value="">
+    <input type="text" id="y" name="" value="">
+    <button type="button" name="button">OK</button>
+    <div class="minuLaukas">
+
+    </div>
+    <script src="../jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+      $("input").on("focus", function(){
+        // alert("veikia");
+        $(this).css({"backgroundColor":"red"});
+
+      });
+      $("input").on("focusout", function(){
+        $(this).css({"backgroundColor":"white"});
+      });
+
+      $(".minuLaukas").on("mousemove", function(){
+        $("#x").val(event.clientX);
+        $("#y").val(event.clientY);
+      });
+
+      $(".minuLaukas").on("click", function(){
+        if(event.clientY < 200){
+          alert("BOOM!");
+        }
+      });
+    </script>
+  </body>
+</html>

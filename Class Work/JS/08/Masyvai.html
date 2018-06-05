@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+    var mergaites = ['Ona', 'Barbora', 'Martyna'];
+    var berniukai = ['Jonas', 'Barbaras', 'Martynas'];
+
+    console.log("mergaites:");
+    for (var i = 0; i < mergaites.length; i++) {
+      console.log(i + 1 + ". " + mergaites[i]);
+    }
+    console.log("berniukai:");
+    for (var i = 0; i < berniukai.length; i++) {
+      console.log(i + 1 + ". " + berniukai[i]);
+    }
+
+    console.log("bendras sarašas")
+
+    var naujasSarasas = mergaites.concat(berniukai);
+    for (var i = 0; i < naujasSarasas.length; i++) {
+      console.log(i + 1 + ". " + naujasSarasas[i]);
+    }
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <input id="vardas" type="text" name="" value="">
+    <input id="mygtukas" type="button" name="" value="OK">
+
+
+    <script src="../jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+      // $("#mygtukas").click(spausdintiReiksme);
+
+      // $("#mygtukas").click(function(){
+      //   alert("cha");
+      // });
+      $("#mygtukas").click(function(){
+        var laukoReiksme = $("#vardas").val();
+        alert(laukoReiksme);
+      });
+
+      function spausdintiReiksme(){
+        alert("cha");
+      }
+    </script>
+  </body>
+</html>

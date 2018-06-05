@@ -1,0 +1,83 @@
+@media screen and (min-width:600px) {
+  .col1{flex: 8.33%;}
+  .col2{flex: 16.66%;}
+  .col3{flex: 25%;}
+  .col4{flex: 33.33%}
+  .col5{flex: 41.66%;}
+  .col6{flex: 50%;}
+  .col7{flex: 58.33%;}
+  .col8{flex: 66.66%}
+  .col9{flex: 75%;}
+  .col10{flex: 83.33%;}
+  .col11{flex: 91.66%;}
+  .col12{flex: 100%}
+}
+
+@media screen and (max-width:599px){
+  .cols1{flex: 8.33%;}
+  .cols2{flex: 16.66%;}
+  .cols3{flex: 25%;}
+  .cols4{flex: 33.33%}
+  .cols5{flex: 41.66%;}
+  .cols6{flex: 50%;}
+  .cols7{flex: 58.33%;}
+  .cols8{flex: 66.66%}
+  .cols9{flex: 75%;}
+  .cols10{flex: 83.33%;}
+  .cols11{flex: 91.66%;}
+  .cols12{flex: 100%}
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid black; */
+}
+
+[class^="col"]{
+
+}
+
+.item{
+  min-height: 460px;
+  padding: 5px;
+  /* border: 1px solid black; */
+  margin: 5px;
+  text-align: justify;
+  box-shadow: 2px 2px 10px green;
+}
+
+ul{
+  list-style: circle;
+}
+
+header.row{
+  align-items: center;
+}
+
+
+
+.webtitle{
+  height: 50px;
+  text-align: center;
+}
+
+img{
+  width: 100%;
+}
+
+.aditem{
+  /* box-shadow: 0px 0px 5px green; */
+  margin: 5px;
+  padding: 5px;
+}
+
+
+iframe{
+  width: 100%;
+  min-height: 150px;
+}
+
+footer{
+  background-color: silver;
+}

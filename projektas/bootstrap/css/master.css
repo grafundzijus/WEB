@@ -1,0 +1,20 @@
+.item{
+  min-height: 400px;
+  padding: 5px;
+  margin: 5px;
+  text-align: justify;
+  box-shadow: 2px 2px 10px green;
+}
+
+
+footer{
+  height: 50px;
+  border: 1px solid black;
+
+}
+
+.content{
+  height: 500px;
+  border: 1px solid black;
+
+}
