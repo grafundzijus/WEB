@@ -1,7 +1,5 @@
 <!doctype html>
 <html lang="en">
-<!doctype html>
-<html lang="en">
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -25,18 +23,48 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#"> Daržovės ir uogos <span class="sr-only">(current)</span></a>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Daržovės ir uogos
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Daržovės</a>
+              <a class="dropdown-item" href="#">Gėlės</a>
+              <a class="dropdown-item" href="#">Daržo Gėlės</a>
+            </div>
+          </div>
+          <!-- <a class="nav-link" href="#"> Daržovės ir uogos <span class="sr-only">(current)</span></a> -->
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#"> Gėlės ir dekoratyviniai augalai <span class="sr-only">(current)</span></a>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Gėlės ir dekoratyviniai augalai
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Gėlės</a>
+              <a class="dropdown-item" href="#">Krūmai</a>
+              <a class="dropdown-item" href="#">Medžiai</a>
+            </div>
+          </div>
+          <!-- <a class="nav-link" href="#"> Gėlės ir dekoratyviniai augalai <span class="sr-only">(current)</span></a> -->
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#"> Stilingos idėjos <span class="sr-only">(current)</span></a>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Stilingos idėjos
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Idėjos</a>
+              <a class="dropdown-item" href="#">Stilingos</a>
+              <a class="dropdown-item" href="#">Daržo stilius</a>
+            </div>
+          </div>
+          <!-- <a class="nav-link" href="#"> Stilingos idėjos <span class="sr-only">(current)</span></a> -->
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Paieška" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0 bg-dark text-white" type="submit">PAIEŠKA</button>
+        <button class="btn btn-secondary  my-2 my-sm-0" type="submit">PAIEŠKA</button>
       </form>
     </div>
   </nav>
@@ -95,7 +123,7 @@
         <div class=" col-md-8">
 
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary bg-dark text-white" data-toggle="modal" data-target="#exampleModal">
+        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
         Susisiekite
         </button>
         <a href=""> <img src="img/fb2.png" alt=""> </a>
